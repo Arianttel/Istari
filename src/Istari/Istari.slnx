@@ -6,6 +6,7 @@
   <Folder Name="/Sauron/">
     <Project Path="Sauron/Sauron.Abstraction/Sauron.Abstraction.csproj" Id="2affc5a4-0a81-4bd7-b7b3-cd45bb8ad403" />
     <Project Path="Sauron/Sauron.Application/Sauron.Application.csproj" />
+    <Project Path="Sauron/Sauron.DbMigrator/Sauron.DbMigrator.csproj" Id="2da278db-1611-4fd8-b3d9-1deeb0358197" />
     <Project Path="Sauron/Sauron.Domain.EfCore/Sauron.Domain.EfCore.csproj" />
     <Project Path="Sauron/Sauron.Domain/Sauron.Domain.csproj" />
     <Project Path="Sauron/Sauron.IdentityWebApp/Sauron.IdentityWebApp.csproj" Id="4c0456f5-977e-40b7-b397-7dc26526771b" />

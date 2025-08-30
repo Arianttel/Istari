@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>c2f40d9b-5832-4512-b5a5-32ce9a413275</UserSecretsId>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Sauron.Abstraction\Sauron.Abstraction.csproj" />
-    <ProjectReference Include="..\Sauron.Domain.EfCore\Sauron.Domain.EfCore.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Sauron.Abstraction\Sauron.Abstraction.csproj" />
+		<ProjectReference Include="..\Sauron.Domain.EfCore\Sauron.Domain.EfCore.csproj" />
+	</ItemGroup>
 
 </Project>
