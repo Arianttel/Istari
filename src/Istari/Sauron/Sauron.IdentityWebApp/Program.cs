@@ -1,4 +1,5 @@
 using Sauron.Abstraction;
+using Sauron.IdentityWebApp.Background;
 using Sauron.IdentityWebApp.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services
 	.AddInteractiveServerComponents();
 
 builder.Services.AddSauron(builder.Configuration);
+builder.Services.AddHostedService<DistributorClientsWorker>();
 
 var app = builder.Build();
 
