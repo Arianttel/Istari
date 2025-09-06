@@ -11,6 +11,7 @@
   <Folder Name="/Sauron/">
     <Project Path="Sauron/Sauron.Abstraction/Sauron.Abstraction.csproj" Id="2affc5a4-0a81-4bd7-b7b3-cd45bb8ad403" />
     <Project Path="Sauron/Sauron.Application/Sauron.Application.csproj" />
+    <Project Path="Sauron/Sauron.DbMigrator.DbUp/Sauron.DbMigrator.DbUp.csproj" Id="24692f0c-71fd-47bc-a1bd-88c3d573c8a1" />
     <Project Path="Sauron/Sauron.DbMigrator.EfCore/Sauron.DbMigrator.EfCore.csproj" />
     <Project Path="Sauron/Sauron.Domain.EfCore/Sauron.Domain.EfCore.csproj" />
     <Project Path="Sauron/Sauron.Domain/Sauron.Domain.csproj" />
