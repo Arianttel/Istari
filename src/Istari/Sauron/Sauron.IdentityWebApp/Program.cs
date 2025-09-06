@@ -9,6 +9,7 @@ builder.Services
 	.AddRazorComponents()
 	.AddInteractiveServerComponents();
 
+builder.Services.AddControllers();
 builder.Services.AddSauron(builder.Configuration);
 builder.Services.AddHostedService<DistributorClientsWorker>();
 
@@ -26,6 +27,9 @@ if (!app.Environment.IsDevelopment())
 //app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseRouting();
+app.MapControllers();
 
 app.UseHttpsRedirection();
 

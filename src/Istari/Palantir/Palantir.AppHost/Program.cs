@@ -1,7 +1,7 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var postgreServer = builder
-	.AddPostgres("postgreserver")
+	.AddPostgres("postgreserver", port: 15000)
 	.WithPgAdmin();
 var sauronDb = postgreServer.AddDatabase("saurondb");
 

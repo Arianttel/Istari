@@ -16,6 +16,7 @@ public sealed class AuthorizationController : Controller
 		_appManager = appManager;
 	}
 
+	[HttpPost("~/connect/token"), Produces("application/json")]
 	public async Task<IActionResult> ExchangeAsync(CancellationToken cancellationToken)
 	{
 		var request = HttpContext.GetOpenIddictServerRequest();
