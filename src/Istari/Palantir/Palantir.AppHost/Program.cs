@@ -6,7 +6,7 @@ var postgreServer = builder
 var sauronDb = postgreServer.AddDatabase("saurondb");
 
 var sauronDbMigrator = builder
-	.AddProject<Projects.Sauron_DbMigrator>("saurondbmigrator")
+	.AddProject<Projects.Sauron_DbMigrator_EfCore>("saurondbmigrator")
 	.WithReference(sauronDb, "Sauron")
 	.WaitFor(sauronDb);
 

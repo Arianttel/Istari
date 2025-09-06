@@ -17,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\Sauron\Sauron.DbMigrator\Sauron.DbMigrator.csproj" />
+	  <ProjectReference Include="..\..\Sauron\Sauron.DbMigrator.EfCore\Sauron.DbMigrator.EfCore.csproj" />
 	  <ProjectReference Include="..\..\Sauron\Sauron.IdentityWebApp\Sauron.IdentityWebApp.csproj" />
 	</ItemGroup>
 
