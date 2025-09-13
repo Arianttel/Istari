@@ -6,4 +6,9 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Sauron.Application.Abstraction\Sauron.Application.Abstraction.csproj" />
+	  <ProjectReference Include="..\Sauron.Domain\Sauron.Domain.csproj" />
+	</ItemGroup>
+
 </Project>
