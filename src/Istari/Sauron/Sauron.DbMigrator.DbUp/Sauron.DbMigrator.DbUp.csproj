@@ -17,7 +17,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Scripts\" />
+	  <Folder Include="Scripts\Post\Always\" />
+	  <Folder Include="Scripts\Post\Once\" />
+	  <Folder Include="Scripts\Pre\Always\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Scripts\Pre\Once\Schemas\Schema.Pre.Once.sql">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Scripts\Pre\Once\Tables\Adventurer.Pre.Once.sql">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 </Project>

@@ -2,17 +2,25 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var postgreServer = builder
 	.AddPostgres("postgreserver", port: 15000)
-	.WithPgAdmin();
+	.WithPgAdmin()
+	.WithDataVolume();
 var sauronDb = postgreServer.AddDatabase("saurondb");
 
-var sauronDbMigrator = builder
-	.AddProject<Projects.Sauron_DbMigrator_EfCore>("saurondbmigrator")
+var sauronDbMigratorEf = builder
+	.AddProject<Projects.Sauron_DbMigrator_EfCore>("saurondbmigratoref")
 	.WithReference(sauronDb, "Sauron")
-	.WaitFor(sauronDb);
+	.WaitFor(sauronDb)
+	.WithExplicitStart();
 
 var sauron = builder
 	.AddProject<Projects.Sauron_IdentityWebApp>("sauron")
 	.WithReference(sauronDb, "Sauron")
 	.WaitFor(sauronDb);
+
+var sauronDbMigrator = builder
+	.AddProject<Projects.Sauron_DbMigrator_DbUp>("saurondbmigrator")
+	.WithReference(sauronDb, "Default")
+	.WaitFor(sauronDb)
+	.WithExplicitStart();
 
 builder.Build().Run();
