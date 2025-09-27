@@ -1,0 +1,10 @@
+﻿namespace Maiar.Resulting.Abstraction;
+public abstract class Error
+{
+	public string Message { get; }
+
+	protected Error(string message)
+	{
+		Message = message;
+	}
+}

@@ -117,22 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Adventurer:Password:MustRepeat" xml:space="preserve">
-    <value>Passwords must match.</value>
-  </data>
-  <data name="Adventurer:RepeatPassword:MustNotEmpty" xml:space="preserve">
-    <value>Password must be filled in.</value>
-  </data>
-  <data name="Adventurer:Password:MustNotEmpty" xml:space="preserve">
-    <value>Password must be filled in.</value>
-  </data>
-  <data name="Adventurer:Name:MustNotEmpty" xml:space="preserve">
-    <value>Name must be filled in.</value>
-  </data>
-  <data name="Adventurer.Password.Length" xml:space="preserve">
-    <value>Password must be between 12 and 50 characters.</value>
-  </data>
-  <data name="Adventurer.Name.Length" xml:space="preserve">
-    <value>Name must be between 1 and 25 characters.</value>
+  <data name="NotFound" xml:space="preserve">
+    <value>The entity "{Entity}" was not found.</value>
   </data>
 </root>

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Maiar\Maiar.Resulting.Abstraction\Maiar.Resulting.Abstraction.csproj" />
+    <ProjectReference Include="..\Maiar.Resulting.Abstraction\Maiar.Resulting.Abstraction.csproj" />
   </ItemGroup>
 
 </Project>

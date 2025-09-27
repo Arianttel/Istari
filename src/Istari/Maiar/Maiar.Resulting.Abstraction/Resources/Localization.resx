@@ -117,22 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Adventurer:Password:MustRepeat" xml:space="preserve">
-    <value>Пароли должны совпадать.</value>
-  </data>
-  <data name="Adventurer:RepeatPassword:MustNotEmpty" xml:space="preserve">
-    <value>Пароль должен быть заполнен.</value>
-  </data>
-  <data name="Adventurer:Password:MustNotEmpty" xml:space="preserve">
-    <value>Пароль должен быть заполнен.</value>
-  </data>
-  <data name="Adventurer:Name:MustNotEmpty" xml:space="preserve">
-    <value>Имя должно быть заполнено.</value>
-  </data>
-  <data name="Adventurer.Password.Length" xml:space="preserve">
-    <value>Пароль должен быть от 12 до 50 символов.</value>
-  </data>
-  <data name="Adventurer.Name.Length" xml:space="preserve">
-    <value>Имя должно быть от 1 до 25 символов.</value>
+  <data name="NotFound" xml:space="preserve">
+    <value>NotFound</value>
   </data>
 </root>

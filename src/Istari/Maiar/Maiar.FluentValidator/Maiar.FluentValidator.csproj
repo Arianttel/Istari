@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Maiar\Maiar.Resulting.Abstraction\Maiar.Resulting.Abstraction.csproj" />
+    <PackageReference Include="FluentValidation" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Maiar.FluentValidator.Abstraction\Maiar.FluentValidator.Abstraction.csproj" />
   </ItemGroup>
 
 </Project>

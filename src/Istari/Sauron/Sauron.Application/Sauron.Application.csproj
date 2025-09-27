@@ -7,6 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\Maiar\Maiar.FluentValidator.Abstraction\Maiar.FluentValidator.Abstraction.csproj" />
 	  <ProjectReference Include="..\Sauron.Application.Abstraction\Sauron.Application.Abstraction.csproj" />
 	  <ProjectReference Include="..\Sauron.Domain\Sauron.Domain.csproj" />
 	</ItemGroup>
