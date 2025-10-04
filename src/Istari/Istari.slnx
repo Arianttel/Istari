@@ -4,6 +4,10 @@
     <Project Path="Maiar/Maiar.Dapper.Abstraction/Maiar.Dapper.Abstraction.csproj" />
     <Project Path="Maiar/Maiar.Dapper/Maiar.Dapper.csproj" />
   </Folder>
+  <Folder Name="/Maiar/Ddd/">
+    <Project Path="Maiar/Maiar.Ddd.Abstraction/Maiar.Ddd.Abstraction.csproj" Id="a908e753-8190-4d2c-ac3d-656ab95fbc08" />
+    <Project Path="Maiar/Maiar.Ddd/Maiar.Ddd.csproj" Id="e51c0814-72bd-4ff4-b4ab-d915afdfd901" />
+  </Folder>
   <Folder Name="/Maiar/FluentValidator/">
     <Project Path="Maiar/Maiar.FluentValidator.Abstraction/Maiar.FluentValidator.Abstraction.csproj" Id="784542b5-741c-4832-bfc7-b4d253c63848" />
     <Project Path="Maiar/Maiar.FluentValidator/Maiar.FluentValidator.csproj" Id="42647a81-7767-468e-859e-9b5ec74380e3" />

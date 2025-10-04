@@ -1,7 +1,12 @@
-﻿namespace Sauron.Domain.ValueObjects;
+﻿using Maiar.Resulting.Abstraction;
+
+namespace Sauron.Domain.ValueObjects;
 public sealed class Password
 {
 	public byte[] Hash { get; }
 
-	private Password() { }
+	public Result Create(string password)
+	{
+
+	}
 }
