@@ -10,4 +10,9 @@
     <ProjectReference Include="..\..\Maiar\Maiar.Resulting.Abstraction\Maiar.Resulting.Abstraction.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Roots\" />
+  </ItemGroup>
+
 </Project>

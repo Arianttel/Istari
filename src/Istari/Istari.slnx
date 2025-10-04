@@ -10,7 +10,6 @@
   </Folder>
   <Folder Name="/Maiar/Resulting/">
     <Project Path="Maiar/Maiar.Resulting.Abstraction/Maiar.Resulting.Abstraction.csproj" Id="24f6aae9-f954-43c6-bbc9-92d3da0c788a" />
-    <Project Path="Maiar/Maiar.Resulting.UnitTests/Maiar.Resulting.UnitTests.csproj" Id="5aa20232-a2bb-46c1-bed6-745378cb0cb8" />
     <Project Path="Maiar/Maiar.Resulting/Maiar.Resulting.csproj" Id="ef3c6352-954a-4d07-9ee4-dd5993de8a9b" />
   </Folder>
   <Folder Name="/Palantir/">

@@ -1,10 +1,12 @@
-﻿namespace Maiar.Resulting.Abstraction;
+﻿using System.Collections.Immutable;
+
+namespace Maiar.Resulting.Abstraction;
 public abstract class Error
 {
-	public string Message { get; }
+	protected IImmutableList<string> _messages;
 
-	protected Error(string message)
+	public Error(IEnumerable<string> messages)
 	{
-		Message = message;
+		_messages = messages.ToImmutableArray();
 	}
 }
